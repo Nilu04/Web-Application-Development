@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Services - Funland Toy Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main {
+            width: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('c.jpg');
+            background-position: center;
+            background-size: cover;
+            flex: 1;
+            color: white;
+        }
+
+        .navbar {
+            width: 1200px;
+            height: 75px;
+            margin: auto;
+        }
+
+        .icon {
+            width: 200px;
+            float: left;
+            height: 70px;
+        }
+
+        .logo {
+            color: #0095ff;
+            font-size: 35px;
+            font-family: Kingfisher, cursive;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-top: 5px;
+        }
+
+        .menu {
+            width: 600px;
+            float: left;
+            height: 70px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li {
+            list-style: none;
+            margin-left: 50px;
+            margin-top: 27px;
+            font-size: 14px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            transition: 0.4s ease-in-out;
+        }
+
+        ul li a:hover {
+            color: #0095ff;
+        }
+
+        .content {
+            width: 1200px;
+            height: auto;
+            margin: auto;
+            color: #fff;
+            position: relative;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-family: 'Times New Roman', serif;
+            font-size: 50px;
+            letter-spacing: 2px;
+        }
+
+        .content p {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            letter-spacing: 1.2px;
+            line-height: 30px;
+            margin-bottom: 40px;
+        }
+
+        .services-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            background-color: white;
+            color: black;
+            width: 300px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-item h3 {
+            color: #0095ff;
+            margin-bottom: 10px;
+        }
+
+        .service-item p {
+            font-size: 16px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Funland TOYS</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Our Services</h1>
+            <p class="par">At Funland Toy Store, we pride ourselves on providing a wide range of services to enhance your shopping experience. Explore what we have to offer:</p>
+
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Personalized Toy Recommendations</h3>
+                    <p>Our experts can guide you in finding the perfect toy for your child based on their age, interests, and preferences.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>Gift Wrapping Services</h3>
+                    <p>Get your toys beautifully wrapped in our premium gift packaging, perfect for birthdays and special occasions.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>Home Delivery</h3>
+                    <p>Enjoy the convenience of having toys delivered straight to your doorstep with our fast and reliable delivery services.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>New Arrivals & Exclusive Collections</h3>
+                    <p>Be the first to access the latest toy designs and limited-edition collections only available at Funland Toy Store.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>In-store Events and Play Zones</h3>
+                    <p>Join us for fun in-store events like toy demonstrations, competitions, and interactive play zones for children of all ages.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Funland Toy Store | All rights reserved</p>
+    </footer>
+</body>
+</html>
